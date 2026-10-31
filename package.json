@@ -1,0 +1,15 @@
+{
+  "name": "mapfixpro",
+  "version": "2.0.0",
+  "private": true,
+  "description": "MapFixPro website with a Netlify Functions order backend (Netlify Blobs storage + Gmail notifications).",
+  "type": "module",
+  "engines": { "node": ">=20.6.1" },
+  "scripts": {
+    "dev:local": "node dev/local-server.mjs",
+    "test:e2e": "node dev/e2e.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}
